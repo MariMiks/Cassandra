@@ -1,11 +1,11 @@
 from astrapy import DataAPIClient
 
 # Initialize the client
-client = DataAPIClient("AstraCS:iwarwQAxLISzoemuBKgNAlws:dc48f5f0250dda8699c584a40cd7c2d58a4c2a2227891c1667964118775d1731")
+client = DataAPIClient("AstraCS:KDHNemuJIrzrEiENrdwZWtcZ:e5e8a4556f5642c4a2f68a9550ac9d52571d395b4a26287b658fcc5a512ebe1e")
 
 # Correct way to get the database (keyspace) object
 db = client.get_database_by_api_endpoint(
-    "https://a13163e2-82f4-4996-8969-1beb3348cab5-us-east-2.apps.astra.datastax.com"
+    "https://a01bdfbf-2242-4ccb-8073-418f50d1cfba-us-east-2.apps.astra.datastax.com"
 )
 
 

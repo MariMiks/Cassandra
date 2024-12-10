@@ -21,7 +21,7 @@ while True:
             if sub == '1':
                 CRUDusuario.create_usuario()
             elif sub == '2':
-                nome = input("Listar usuários, deseja algum nome especifico? ")
+                nome = input("Listar usuários, digite um cpf especifico (ENTER - todos)? ")
                 CRUDusuario.read_usuario(nome)
             elif sub == '3':
                 CRUDusuario.update_usuario()
@@ -37,7 +37,7 @@ while True:
             if sub == '1':
                 CRUDvendedor.create_vendedor()
             elif sub == '2':
-                cpf = input("Listar vendedores, deseja algum cpf especifico? ")
+                cpf = input("Listar vendedores, digite um cpf especifico (ENTER - todos)? ")
                 CRUDvendedor.read_vendedor(cpf)
             elif sub == '3':
                 CRUDvendedor.update_vendedor()
